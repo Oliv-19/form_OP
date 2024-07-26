@@ -33,7 +33,7 @@ section:first-of-type{
     padding: 10px;
     justify-content: center;
     align-items: center;
-    margin-top: 130px;
+    margin-top: 80px;
 }
 h1{
     font-family: "RockSalt", cursive;
@@ -53,4 +53,94 @@ h1{
 section:last-of-type{
     height: 100%;
     width: 70%;
+    background-color: #F9FAFB;
+    
+}
+.head{
+    font-size: 20px;
+    font-weight: 550;
+    height: 27%;
+    padding: 0 50px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.head>p:first-of-type{
+    width: 65%;
+    
+}
+.head>p:last-of-type{
+    margin-top: 20px;
+    
+}
+.inputs{
+    background-color: #FFFFFF;
+    padding: 20px 50px;
+    box-shadow: #d3d5db 5px 10px 11px;
+
+}
+h3{
+    font-size: 23px;
+}
+ul{
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+li{
+    display: flex;
+    flex-direction: column; 
+    width: 33%;
+}
+input{
+    appearance: none;
+    padding: 3px;
+    background-color: #f9f9f9;
+    border: #E5E7EB 1px solid;
+    width: 80%;
+    border-radius: 3px;
+}
+input:focus{
+    
+    outline: rgb(47, 108, 221) 1px solid;
+    box-shadow: rgba(47, 108, 221, 0.753) 4px 4px 5px;
+}
+input:invalid{
+    outline: rgb(219, 75, 75) 1px solid;
+    box-shadow: rgba(219, 75, 75, 0.753) 4px 4px 5px;
+}
+label{
+    font-size: 12px;
+    margin-bottom: 3px;
+    font-weight: 550;
+    color: #464747dc;
+}
+
+button, .login{
+    margin: 20px 50px 0 50px;
+}
+button{
+    appearance: none;
+    padding: 8px 45px;
+    background-color: #596D48;
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: #bababd 4px 6px 6px;
+}
+.login{
+    /* font-size: 15px; */
+    font-weight: 550;
+}
+.login>a{
+    color: #596D48;
+    text-decoration: none;
 }
